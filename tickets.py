@@ -7,8 +7,12 @@ while True:
     new_sale = input("Is there a new ticket sale? (yes/no): ")
     if new_sale.lower() == "no":
         break
-    
-    sale_total = 0
+        
+         adult_tickets_sold = 0
+        child_tickets_sold = 0
+        concession_tickets_sold = 0
+
+       sale_total = 0
 
     while True:
         try:
