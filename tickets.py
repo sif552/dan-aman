@@ -1,6 +1,6 @@
-adult_price = 2
-child_price = 1
-concession_price = 1
+adult_price = 20
+child_price = 15
+concession_price = 17.50
 total_sales = 0
 
 while True:
